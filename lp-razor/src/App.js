@@ -1,24 +1,15 @@
-import logo from './logo.svg';
+import { Fragment } from 'react';
 import './App.css';
+import Geral from './Components/Geral';
+import "./css/style.css"
+import Script from "./js/main.js"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Geral/>
+      <script type='text/javascript' src={Script}/>
+    </Fragment>
   );
 }
 
