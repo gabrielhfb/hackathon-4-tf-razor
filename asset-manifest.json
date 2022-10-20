@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hackathon-4-tf-razor/static/css/main.6fe50f3d.css",
+    "main.js": "/hackathon-4-tf-razor/static/js/main.3d31088c.js",
+    "static/media/contato-razor.JPG": "/hackathon-4-tf-razor/static/media/contato-razor.4992bccb19c06d7735ec.JPG",
+    "static/media/squad.JPG": "/hackathon-4-tf-razor/static/media/squad.3f19bb5a0eb9cb1abc09.JPG",
+    "static/media/video-prodigy.mp4": "/hackathon-4-tf-razor/static/media/video-prodigy.04acfa6bb5d41869181c.mp4",
+    "static/media/prodigy-banner.png": "/hackathon-4-tf-razor/static/media/prodigy-banner.af39542fa6e98fec961d.png",
+    "static/media/gabriel-henrique.jpeg": "/hackathon-4-tf-razor/static/media/gabriel-henrique.c3ddbe0f33c0a6c7ec3a.jpeg",
+    "static/media/prodigy.PNG": "/hackathon-4-tf-razor/static/media/prodigy.b3bcec51d36d1ebe7c70.PNG",
+    "static/media/felipe.jpg": "/hackathon-4-tf-razor/static/media/felipe.262294404dec9dd875e0.jpg",
+    "index.html": "/hackathon-4-tf-razor/index.html",
+    "main.6fe50f3d.css.map": "/hackathon-4-tf-razor/static/css/main.6fe50f3d.css.map",
+    "main.3d31088c.js.map": "/hackathon-4-tf-razor/static/js/main.3d31088c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fe50f3d.css",
+    "static/js/main.3d31088c.js"
+  ]
+}
