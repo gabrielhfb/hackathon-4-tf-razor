@@ -1,11 +1,10 @@
 import { Fragment } from "react";
-import "./App.css";
 import Footer from "./Components/Footer";
 import HeroImage from "./Components/HeroImage";
 import Informacoes from "./Components/Informacoes";
 import MenuNavegacao from "./Components/MenuNavegacao";
-import "./css/style.css";
-import Script from "./js/main.js";
+import "./Assets/css/style.css"
+import Script from "./Assets/js/main.js";
 
 function App() {
   return (

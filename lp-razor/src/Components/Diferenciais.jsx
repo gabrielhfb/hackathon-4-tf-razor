@@ -1,5 +1,5 @@
-import prodigy from "../img/prodigy.PNG";
-import videoProdigy from "../video/video-prodigy.mp4";
+import prodigy from "../Assets/img/prodigy.PNG";
+import videoProdigy from "../Assets/video/video-prodigy.mp4";
 
 function Diferenciais() {
   return (

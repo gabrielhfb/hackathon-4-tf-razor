@@ -1,6 +1,6 @@
-import felipe from "../img/felipe.jpg";
-import gabrielHenrique from "../img/gabriel-henrique.jpeg";
-import squad from "../img/squad.JPG";
+import felipe from "../Assets/img/felipe.jpg";
+import gabrielHenrique from "../Assets/img/gabriel-henrique.jpeg";
+import squad from "../Assets/img/squad.JPG";
 
 function Equipe() {
   return (

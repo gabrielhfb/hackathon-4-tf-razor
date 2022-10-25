@@ -1,4 +1,4 @@
-import contatoRazor from "../img/contato-razor.JPG";
+import contatoRazor from "../Assets/img/contato-razor.JPG";
 
 function Contato() {
   return (

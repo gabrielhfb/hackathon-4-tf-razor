@@ -1,4 +1,4 @@
-import prodigyBanner from "../img/prodigy-banner.png";
+import prodigyBanner from "../Assets/img/prodigy-banner.png";
 
 function HeroImage() {
   return (
