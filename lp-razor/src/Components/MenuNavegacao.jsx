@@ -1,3 +1,5 @@
+import BarraProgresso from "./BarraProgresso";
+
 function MenuNavegacao() {
   return (
     <header>
@@ -37,14 +39,9 @@ function MenuNavegacao() {
           </a>
         </ul>
       </nav>
-      <div class="barra-progresso" id="barraProg"></div>
+      <BarraProgresso />
     </header>
   );
-}
-
-function fechaNavBar(){
-  const links = document.getElementById("js-menu");
-  links.onclick()
 }
 
 export default MenuNavegacao;

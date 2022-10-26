@@ -3,8 +3,7 @@ import Footer from "./Components/Footer";
 import HeroImage from "./Components/HeroImage";
 import Informacoes from "./Components/Informacoes";
 import MenuNavegacao from "./Components/MenuNavegacao";
-import "./Assets/css/style.css"
-import Script from "./Assets/js/main.js";
+import "./Assets/css/style.css";
 
 function App() {
   return (
@@ -31,7 +30,6 @@ function App() {
       <HeroImage />
       <Informacoes />
       <Footer />
-      <script type="text/javascript" src={Script} />
     </Fragment>
   );
 }

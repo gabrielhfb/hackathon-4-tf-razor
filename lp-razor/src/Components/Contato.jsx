@@ -17,4 +17,22 @@ function Contato() {
   );
 }
 
+/*let modal = document.getElementById("modalFormulario");
+let botao = document.getElementById("botaoContato");
+let span = document.getElementsByClassName("fechar")[0];
+
+botao.onclick = function() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+} */
+
 export default Contato;
