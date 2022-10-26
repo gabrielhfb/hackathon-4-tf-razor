@@ -42,4 +42,9 @@ function MenuNavegacao() {
   );
 }
 
+function fechaNavBar(){
+  const links = document.getElementById("js-menu");
+  links.onclick()
+}
+
 export default MenuNavegacao;

@@ -1,9 +1,8 @@
-import prodigyBanner from "../Assets/img/prodigy-banner.png";
+import videoProdigy from "../Assets/video/video-prodigy.mp4";
 
 function HeroImage() {
   return (
     <section className="abertura">
-      <img src={prodigyBanner} />
       <div className="bloco-mensagem">
         <h1>
           A Workstation PRO <strong>Prodigy</strong> da{" "}
@@ -16,6 +15,18 @@ function HeroImage() {
           Uma máquina de alta performance para atender às demandas de hoje e do
           futuro
         </p>
+        <video
+        class="video-razor"
+        width="1280"
+        height="720"
+        controls
+        autoPlay
+        loop
+        muted
+      >
+        <source src={videoProdigy} type="video/mp4" />
+        Seu navegador não suporta a tag de vídeo.
+      </video>
         <a href="#detalhes">
           <button>Saiba mais</button>
         </a>

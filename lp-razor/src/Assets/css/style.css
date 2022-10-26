@@ -7,7 +7,7 @@ body {
 	font-family: 'Poppins', sans-serif;	
 	margin: 0;
 	scroll-padding-top: 3rem;
-	background-image: url(../img/Fundo.png);
+	/*background-image: url(../img/Fundo.png);*/
 }
 
 header {
@@ -100,12 +100,7 @@ header {
 }
 
 .abertura {
-  position: relative;
-}
-
-.abertura img {
-	width: 100%;
-	border-bottom: 5px solid #7116f2;
+  position: static;
 }
 
 .abertura .bloco-mensagem img {
@@ -114,14 +109,11 @@ header {
 }
 
 .bloco-mensagem {
-  position: absolute;
-  bottom:0.49em;
-  right: 0;
-  background: rgba(113, 22, 242,0.75);
-  color: white;
+  position: static;
+  color: rgb(0, 0, 0);
   padding: 1.1em 1.1em;
   text-align: center;
-  max-width: 45%;
+  max-width: 100%;
   height: 100%;
   border-radius: 4px;
   overflow: auto;
@@ -147,6 +139,14 @@ h1 {
 	font-size: 1.5em;
 	padding: 0.5em 0.5em;
 	line-height: 1.8em
+}
+
+.video-razor {
+	display: block;
+  margin: auto;
+  width: 40%;
+  height: auto;
+	border: 2px solid #f2ec16;
 }
 
 .bloco-mensagem button, .contato-box button {
@@ -216,14 +216,6 @@ h1 {
 	width: 25%;
 	float: right;
 	margin: 0 0 2em 2em;
-}
-
-.video-razor {
-	display: block;
-  margin: auto;
-  width: 60%;
-  height: auto;
-	border: 2px solid #f2ec16;
 }
 
 .contato-box img {

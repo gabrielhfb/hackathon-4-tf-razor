@@ -1,5 +1,4 @@
 import prodigy from "../Assets/img/prodigy.PNG";
-import videoProdigy from "../Assets/video/video-prodigy.mp4";
 
 function Diferenciais() {
   return (
@@ -69,18 +68,7 @@ function Diferenciais() {
 
       <p>Confira uma visão geral da Workstation Prodigy:</p>
 
-      <video
-        class="video-razor"
-        width="1280"
-        height="720"
-        controls
-        autoPlay
-        loop
-        muted
-      >
-        <source src={videoProdigy} type="video/mp4" />
-        Seu navegador não suporta a tag de vídeo.
-      </video>
+      
     </section>
   );
 }
