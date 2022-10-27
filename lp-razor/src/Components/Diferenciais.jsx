@@ -3,7 +3,7 @@ import prodigy from "../Assets/img/prodigy.PNG";
 function Diferenciais() {
   return (
     <section className="diferenciais">
-      <h2 id="detalhes">Workstation PRO Prodigy</h2>
+      <h2 id="detalhes">Workstation PRO <strong>Prodigy</strong></h2>
 
       <img src={prodigy} />
 
