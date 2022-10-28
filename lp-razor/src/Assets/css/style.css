@@ -186,12 +186,22 @@ h1 {
   font-weight: bold;
   clear: left;
   color: #ffffff;
+  text-align: center;
 }
 
 .informacoes strong {
   text-transform: uppercase;
   color: gold;
   font-size: 1.15em;
+}
+
+.prodgy-img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  border: 2px solid rgba(114, 22, 242, 0.58);
+  border-radius: 5px;
 }
 
 .informacoes h3 {

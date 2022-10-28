@@ -5,7 +5,7 @@ function Diferenciais() {
     <section className="diferenciais">
       <h2 id="detalhes">Workstation PRO <strong>Prodigy</strong></h2>
 
-      <img src={prodigy} />
+      <img className="prodgy-img" src={prodigy} />
 
       <h3>Robusta, segura e expansível</h3>
       <p>
