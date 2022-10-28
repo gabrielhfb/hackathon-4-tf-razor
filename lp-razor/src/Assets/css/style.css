@@ -121,7 +121,6 @@ header {
   height: 100%;
   border-radius: 4px;
   overflow: auto;
-  display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -277,6 +276,7 @@ h1 {
 .icones {
   display: flex;
   justify-content: center;
+  margin: 5px;
 }
 
 .linkedin {
