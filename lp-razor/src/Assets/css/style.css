@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   scroll-padding-top: 3rem;
   /*background-image: url(../img/Fundo.png);*/
@@ -523,7 +523,6 @@ footer p {
   .navbar-alternador {
     display: none;
   }
-
 }
 
 @media (hover: none) and (pointer: coarse) {
