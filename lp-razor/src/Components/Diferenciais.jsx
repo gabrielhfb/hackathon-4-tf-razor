@@ -69,6 +69,8 @@ function Diferenciais() {
       <p>Confira uma visão geral da Workstation Prodigy:</p>
 
       
+
+      
     </section>
   );
 }

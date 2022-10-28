@@ -10,7 +10,6 @@ window.onscroll = () => {
     document.documentElement.clientHeight;
   let progresso = (scrollJanela / altura) * 100;
   document.getElementById("barraProg").style.width = progresso + "%";
-  console.log(progresso);
 };
 
 export default BarraProgresso;
