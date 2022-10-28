@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.css"
 import Popper from "popper.js";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
