@@ -199,7 +199,14 @@ h1 {
   font-size: 1.65em;
   margin: 1em 0;
   font-weight: bold;
-  color: #ffffff;
+  color: #d4cdcd;
+  display: flex;
+  background-color: #0000008a;
+  height: 50%;
+  padding: 10px;
+  margin: 0px;
+  text-shadow: 2px 1px #181717;
+  border-radius: 1px;
 }
 
 .informacoes .atencao {
@@ -213,7 +220,14 @@ h1 {
   margin: 1.2em 0;
   text-align: justify;
   line-height: 1.2em;
-  color: #ffffff;
+  color: #d4cdcd;
+  display: flex;
+  background-color: #0000008a;
+  height: 50%;
+  padding: 10px;
+  margin: 0px;
+  text-shadow: 2px 1px #181717;
+  border-radius: 1px;
 }
 
 .informacoes a {
