@@ -51,6 +51,7 @@ header {
   color: rgba(255, 255, 255);
   text-transform: uppercase;
   font-weight: bold;
+  text-shadow: 2px 1px #181717;
 }
 
 .main-nav li {
@@ -63,6 +64,8 @@ header {
 .main-nav li:hover {
   background-color: #f2ec16;
   color: black;
+  text-shadow: none;
+
 }
 
 .logo {
@@ -71,7 +74,7 @@ header {
   margin-top: 10px;
   margin-left: 20px;
   opacity: 100%;
-  transition: 1s all;
+  transition: 300ms all;
 }
 
 .navbar-alternador {
@@ -136,6 +139,8 @@ h1 {
   padding: 0.5em 0.5em;
   font-weight: bold;
   line-height: 1.8em;
+  text-shadow: 2px 1px #181717;
+
 }
 
 .bloco-mensagem strong {
@@ -148,6 +153,8 @@ h1 {
   font-size: 1.5em;
   padding: 0.5em 0.5em;
   line-height: 1.8em;
+  text-shadow: 2px 1px #181717;
+
 }
 
 .video-razor {
@@ -193,6 +200,7 @@ h1 {
   font-weight: bold;
   clear: left;
   color: #ffffff;
+  text-shadow: 2px 1px #181717;
 }
 #detalhes {
   color: rgb(255, 255, 255);
@@ -208,7 +216,6 @@ h1 {
 
 .container-carousel-prodigy {
   width: 40%;
-  float: left;
   color: #ffffff;
   text-align: center;
 }
@@ -275,13 +282,41 @@ h1 {
 .container-descritivo {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
+.container-prodigy {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.descricao-prodigy {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
 }
 
 .diferenciais img {
-  width: 25%;
+  width: 33%;
   display: flex;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  flex-grow: 5;
+  align-self: center;
+}
+
+.informacoes-compra {
+  border-top: 0.3rem solid #415bc1;
+  border-bottom: 0.3rem solid #415bc1;
+  display: flex;
+}
+
+.texto-compra {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
 }
 
 .contato-box img {
@@ -373,7 +408,6 @@ h6 {
   font-size: 1.3rem;
   font-weight: bold;
   color: #ffffff;
-  background-color: #00000013;
   height: 70px;
   text-shadow: 1.2px 1.2px #ff0303a2;
   border-radius: 1px;

@@ -1,3 +1,8 @@
+import wsProdigy1 from "../Assets/img/Prodigy carrosel 01.png"
+import wsProdigy2 from "../Assets/img/Prodigy carrosel 02.png"
+import wsProdigy3 from "../Assets/img/Prodigy carrosel 03.png"
+
+
 function CarouselProdigy() {
   return (
     <div className="container-carousel-prodigy">
@@ -31,21 +36,21 @@ function CarouselProdigy() {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="https://via.placeholder.com/300"
+              src={wsProdigy1}
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://via.placeholder.com/300"
+              src={wsProdigy2}
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://via.placeholder.com/300"
+              src={wsProdigy3}
               class="d-block w-100"
               alt="..."
             />

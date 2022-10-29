@@ -50,7 +50,7 @@ function CarouselSquad({ children, show, infiniteLoop }) {
   };
 
   useEffect(() => {
-    const interval = setInterval(next, 3000);
+    const interval = setInterval(next, 7000);
     return () => clearInterval(interval);
   }, []);  
 
