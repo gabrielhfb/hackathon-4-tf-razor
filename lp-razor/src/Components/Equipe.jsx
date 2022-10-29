@@ -1,33 +1,19 @@
 import felipe from "../Assets/img/felipe.jpg";
 import gabrielHenrique from "../Assets/img/gabriel-henrique.jpeg";
-import squad from "../Assets/img/squad.JPG";
+import daniel from "../Assets/img/daniel.jpeg";
+import francielly from "../Assets/img/francielly.jpeg";
+import lucas from "../Assets/img/lucas.jpg";
 import CarouselSquad from "./CarouselSquad";
 
 function Equipe() {
   return (
     <section class="equipe">
-      <h2 id="squad">Squad 8 - Explorers</h2>
-      <p>
-        Esta Landing Page foi elaborada pelo Squad 8 do #TeuFuturo Web 2022. O
-        #TeuFuturo é uma iniciativa que busca acelerar jovens talentos,
-        fornecendo experiências técnicas (em Programação Web) e comportamentais
-        para gerar ciclos sustentáveis de inovação e transformação social.
-      </p>
-
-      <p>
-        Nesta edição, patrocinada principalmente pela Razor Computadores, foram
-        fornecidas 200 vagas para jovens de 16 a 30 anos, que terão até o final
-        do curso mais de 270 horas de atividades online, totalmente gratuitas.
-      </p>
-
-      <p>
-        Confira abaixo os integrantes que participaram ativamente na elaboração
-        dessa página:
-      </p>
+     
 
       <CarouselSquad show={1} infiniteLoop>
         <div className="card-carousel-squad">
           <h3>Felipe Lafin Haushahn</h3>
+          <h6>Apresentador<br></br><br></br></h6>
           <img src={felipe} />
           <ul class="icones">
             <li>
@@ -61,11 +47,17 @@ function Equipe() {
         </div>
 
         <div className="card-carousel-squad">
-          <h3>Gabriel Henrique Fiszczuk Brandeburski</h3>
+          <h3>Gabriel Henrique</h3>
+          <h6>
+            Líder <br></br>
+            Desenvolvimento<br></br>
+            SM
+          </h6>
+          
           <img src={gabrielHenrique} />
           <ul class="icones">
             <li>
-              <a href="https://www.linkedin.com/in/felipe-lafin-3785a2237">
+              <a href="https://www.linkedin.com/in/gabriel-henrique-fiszczuk-brandeburski">
                 <svg
                   class="linkedin"
                   role="img"
@@ -79,7 +71,7 @@ function Equipe() {
             </li>
 
             <li>
-              <a href="https://github.com/Felipe-Lafin-Haushahn">
+              <a href="https://github.com/gabrielhfb">
                 <svg
                   class="github"
                   role="img"
@@ -96,10 +88,14 @@ function Equipe() {
 
         <div className="card-carousel-squad">
           <h3>Daniel Pierre</h3>
-          <img src="https://via.placeholder.com/300" />
+          <h6>
+          Desenvolvimento<br></br>
+          Design<br></br>
+          </h6>
+          <img src={daniel} />
           <ul class="icones">
             <li>
-              <a href="https://www.linkedin.com/in/felipe-lafin-3785a2237">
+              <a href="https://www.linkedin.com/in/daniel-pierre-frontend">
                 <svg
                   class="linkedin"
                   role="img"
@@ -113,7 +109,7 @@ function Equipe() {
             </li>
 
             <li>
-              <a href="https://github.com/Felipe-Lafin-Haushahn">
+              <a href="https://github.com/danielpierre12">
                 <svg
                   class="github"
                   role="img"
@@ -130,10 +126,11 @@ function Equipe() {
 
         <div className="card-carousel-squad">
           <h3>Francielly Serraglio</h3>
-          <img src="https://via.placeholder.com/300" />
+          <h6>Design<br></br><br></br></h6>
+          <img src={francielly} />
           <ul class="icones">
             <li>
-              <a href="https://www.linkedin.com/in/felipe-lafin-3785a2237">
+              <a href="https://www.linkedin.com/in/francielly-barboza-serraglio-3905a2237">
                 <svg
                   class="linkedin"
                   role="img"
@@ -164,7 +161,8 @@ function Equipe() {
 
         <div className="card-carousel-squad">
           <h3>Lucas Waltrich</h3>
-          <img src="https://via.placeholder.com/300" />
+          <h6>Design<br></br><br></br></h6>
+          <img src={lucas} />
           <ul class="icones">
             <li>
               <a href="https://www.linkedin.com/in/felipe-lafin-3785a2237">
@@ -181,7 +179,7 @@ function Equipe() {
             </li>
 
             <li>
-              <a href="https://github.com/Felipe-Lafin-Haushahn">
+              <a href="https://github.com/LucasEndril">
                 <svg
                   class="github"
                   role="img"

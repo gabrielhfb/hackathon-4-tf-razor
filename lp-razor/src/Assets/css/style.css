@@ -147,6 +147,7 @@ h1 {
 .video-razor {
   display: block;
   margin: auto;
+  margin-bottom: 2px;
   width: 40%;
   height: auto;
   border: 2px solid #f2ec16;
@@ -185,6 +186,11 @@ h1 {
   margin: 1em 0;
   font-weight: bold;
   clear: left;
+  color: #6ca0ff;
+}
+#detalhes {
+  color: rgb(254, 0, 0);
+  text-align: center;
 }
 
 .diferenciais h3 {
@@ -219,9 +225,9 @@ h1 {
   font-size: 1.65em;
   margin: 1em 0;
   font-weight: bold;
-  color: #d4cdcd;
+  color: #ffffff;
   display: flex;
-  background-color: #0000008a;
+  background-color: #0000003d;
   height: 50%;
   padding: 10px;
   margin: 0px;
@@ -240,9 +246,9 @@ h1 {
   margin: 1.2em 0;
   text-align: justify;
   line-height: 1.2em;
-  color: #d4cdcd;
+  color: #ffffff;
   display: flex;
-  background-color: #0000008a;
+  background-color: #0000003d;
   height: 50%;
   padding: 10px;
   margin: 0px;
@@ -277,6 +283,19 @@ h1 {
   float: left;
   margin: 0 2em 2em 0;
   border: 2px solid #f2ec16;
+}
+
+#squad {
+  text-align: center;
+  color: #181717;
+  padding-top: 100px;
+}
+
+h6 {
+  color: #f2eb169d;
+  margin: 0px 0px 4px 11px;
+  text-shadow: 2px 1px #181717;
+  border-radius: 1px;
 }
 
 .carousel-container {
@@ -320,6 +339,8 @@ h1 {
 
 .carousel-content.show-3 > * {
   width: calc(100% / 3);
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .card-carousel-squad {
@@ -335,12 +356,20 @@ h1 {
 
 .card-carousel-squad img {
   justify-content: center;
-  width: 70%;
+  width: 50%;
+  height: 50%;
+  /*border: 2px solid rgba(114, 22, 242, 0.244);*/
+  border-radius: 100%;
 }
 
 .card-carousel-squad h3 {
   font-size: 1.3rem;
   font-weight: bold;
+  background-color: #00000013;
+  height: 70px;
+  text-shadow: 2px 1px #181717;
+  border-radius: 1px;
+  padding: 10px 0px 0px 10px;
 }
 
 .left-arrow,
@@ -369,11 +398,13 @@ h1 {
 }
 
 .gabriel img,
-.felipe img {
+.felipe img,
+.daniel img,
+.lucas img,
+.francielly img {
   width: 30vw;
   float: left;
   margin: 0 2em 2em 0;
-  border: 2px solid #f2ec16;
 }
 
 .gabriel {
@@ -387,7 +418,7 @@ h1 {
 
 .icones {
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   margin: 5px;
 }
 
@@ -405,16 +436,6 @@ h1 {
 .linkedin:hover,
 .github:hover {
   fill: #7116f2;
-}
-
-.imagem-squad {
-  clear: left;
-  display: block;
-  margin: 2em auto;
-  width: 60%;
-  height: auto;
-  border: 4px solid #f2ec16;
-  border-radius: 3px;
 }
 
 .modal {
