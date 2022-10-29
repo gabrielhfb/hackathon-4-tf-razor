@@ -3,14 +3,20 @@ html {
   scroll-padding-top: 5em;
 }
 
+.envolve-conteudo {
+  background: url(../img/Fundo.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   scroll-padding-top: 3rem;
-  background-image: url(../img/49737802.jpg);
   max-width: 100vw;
   max-height: 100%;
-  background-size: cover;
 }
 
 header {
@@ -150,7 +156,7 @@ h1 {
   margin-bottom: 2px;
   width: 40%;
   height: auto;
-  border: 2px solid #f2ec16;
+  border: 2px solid #cbcbc9;
 }
 
 .bloco-mensagem button,
@@ -178,7 +184,7 @@ h1 {
 }
 
 .informacoes {
-  margin: 2em 2em;
+  margin: 2rem 8rem;
 }
 
 .informacoes h2 {
@@ -228,7 +234,6 @@ h1 {
   font-weight: bold;
   color: #ffffff;
   display: flex;
-  background-color: #0000003d;
   height: 50%;
   padding: 10px;
   margin: 0px;
@@ -249,7 +254,6 @@ h1 {
   line-height: 1.2em;
   color: #ffffff;
   display: flex;
-  background-color: #0000003d;
   height: 50%;
   padding: 10px;
   margin: 0px;
@@ -276,7 +280,8 @@ h1 {
 .diferenciais img {
   width: 25%;
   display: flex;
-  margin: 0 0 2rem 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .contato-box img {
@@ -548,13 +553,16 @@ footer p {
   .bloco-mensagem {
     position: static;
     max-width: 100%;
-    opacity: 100%;
-    background: rgb(113, 22, 242, 0.9);
+  }
+
+  .informacoes {
+    margin: 2rem 2rem;
   }
 
   .video-razor,
   .imagem-squad,
   .diferenciais img,
+  .container-carousel-prodigy,
   .contato-box img,
   .contato-box button,
   .felipe img,
