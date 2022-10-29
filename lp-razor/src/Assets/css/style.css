@@ -3,14 +3,20 @@ html {
   scroll-padding-top: 5em;
 }
 
+.envolve-conteudo {
+  background: url(../img/Fundo.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   scroll-padding-top: 3rem;
-  background-image: url(../img/49737802.jpg);
   max-width: 100vw;
   max-height: 100%;
-  background-size: cover;
 }
 
 header {
@@ -147,9 +153,10 @@ h1 {
 .video-razor {
   display: block;
   margin: auto;
+  margin-bottom: 2px;
   width: 40%;
   height: auto;
-  border: 2px solid #f2ec16;
+  border: 2px solid #cbcbc9;
 }
 
 .bloco-mensagem button,
@@ -177,7 +184,7 @@ h1 {
 }
 
 .informacoes {
-  margin: 2em 2em;
+  margin: 2rem 8rem;
 }
 
 .informacoes h2 {
@@ -185,6 +192,12 @@ h1 {
   margin: 1em 0;
   font-weight: bold;
   clear: left;
+  color: #ffffff;
+}
+#detalhes {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 0.9px 0.9px #917e7e71;
 }
 
 .diferenciais h3 {
@@ -219,9 +232,8 @@ h1 {
   font-size: 1.65em;
   margin: 1em 0;
   font-weight: bold;
-  color: #d4cdcd;
+  color: #ffffff;
   display: flex;
-  background-color: #0000008a;
   height: 50%;
   padding: 10px;
   margin: 0px;
@@ -240,9 +252,8 @@ h1 {
   margin: 1.2em 0;
   text-align: justify;
   line-height: 1.2em;
-  color: #d4cdcd;
+  color: #ffffff;
   display: flex;
-  background-color: #0000008a;
   height: 50%;
   padding: 10px;
   margin: 0px;
@@ -269,7 +280,8 @@ h1 {
 .diferenciais img {
   width: 25%;
   display: flex;
-  margin: 0 0 2rem 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .contato-box img {
@@ -277,6 +289,19 @@ h1 {
   float: left;
   margin: 0 2em 2em 0;
   border: 2px solid #f2ec16;
+}
+
+#squad {
+  text-align: center;
+  color: #181717;
+  padding-top: 100px;
+}
+
+h6 {
+  color: rgba(225, 255, 0, 0.501);
+  margin: 0px 401px 10px 11px;
+  text-shadow: 2px 1px #181717;
+  border-radius: 1px;
 }
 
 .carousel-container {
@@ -320,6 +345,8 @@ h1 {
 
 .carousel-content.show-3 > * {
   width: calc(100% / 3);
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .card-carousel-squad {
@@ -335,12 +362,22 @@ h1 {
 
 .card-carousel-squad img {
   justify-content: center;
-  width: 70%;
+  border-radius: 100%;
+  background-size: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .card-carousel-squad h3 {
   font-size: 1.3rem;
   font-weight: bold;
+  color: #ffffff;
+  background-color: #00000013;
+  height: 70px;
+  text-shadow: 1.2px 1.2px #ff0303a2;
+  border-radius: 1px;
+  padding: 10px 0px 0px 10px;
 }
 
 .left-arrow,
@@ -369,11 +406,13 @@ h1 {
 }
 
 .gabriel img,
-.felipe img {
+.felipe img,
+.daniel img,
+.lucas img,
+.francielly img {
   width: 30vw;
   float: left;
   margin: 0 2em 2em 0;
-  border: 2px solid #f2ec16;
 }
 
 .gabriel {
@@ -387,8 +426,7 @@ h1 {
 
 .icones {
   display: flex;
-  justify-content: center;
-  margin: 5px;
+  margin: 10px 0px 10px 30px;
 }
 
 .linkedin {
@@ -399,22 +437,12 @@ h1 {
 
 .github {
   width: 3em;
-  fill: #181717;
+  fill: #ffffff;
 }
 
 .linkedin:hover,
 .github:hover {
   fill: #7116f2;
-}
-
-.imagem-squad {
-  clear: left;
-  display: block;
-  margin: 2em auto;
-  width: 60%;
-  height: auto;
-  border: 4px solid #f2ec16;
-  border-radius: 3px;
 }
 
 .modal {
@@ -524,13 +552,16 @@ footer p {
   .bloco-mensagem {
     position: static;
     max-width: 100%;
-    opacity: 100%;
-    background: rgb(113, 22, 242, 0.9);
+  }
+
+  .informacoes {
+    margin: 2rem 2rem;
   }
 
   .video-razor,
   .imagem-squad,
   .diferenciais img,
+  .container-carousel-prodigy,
   .contato-box img,
   .contato-box button,
   .felipe img,

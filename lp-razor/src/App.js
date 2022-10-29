@@ -7,7 +7,7 @@ import "./Assets/css/style.css";
 
 function App() {
   return (
-    <Fragment>
+    <div className="envolve-conteudo">
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -29,7 +29,7 @@ function App() {
       <HeroImage />
       <Informacoes />
       <Footer />
-    </Fragment>
+    </div>
   );
 }
 
