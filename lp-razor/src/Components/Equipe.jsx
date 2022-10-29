@@ -1,6 +1,6 @@
 import felipe from "../Assets/img/felipe.jpg";
 import gabrielHenrique from "../Assets/img/gabriel-henrique.jpeg";
-import daniel from "../Assets/img/daniel.jpeg";
+import daniel from "../Assets/img/daniel.jpg";
 import francielly from "../Assets/img/francielly.jpeg";
 import lucas from "../Assets/img/lucas.jpg";
 import CarouselSquad from "./CarouselSquad";
@@ -141,7 +141,7 @@ function Equipe() {
             </li>
 
             <li>
-              <a href="https://github.com/Felipe-Lafin-Haushahn">
+              <a href="https://github.com/franciellybarboza">
                 <svg
                   class="github"
                   role="img"
