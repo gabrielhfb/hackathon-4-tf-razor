@@ -7,9 +7,7 @@ import CarouselSquad from "./CarouselSquad";
 
 function Equipe() {
   return (
-    <section class="equipe">
-     
-
+    <section class="equipe" id="squad">
       <CarouselSquad show={1} infiniteLoop>
         <div className="card-carousel-squad">
           <h3>Felipe Lafin Haushahn</h3>
@@ -51,7 +49,6 @@ function Equipe() {
           <h6>
             Líder <br></br>
             Desenvolvimento<br></br>
-            SM
           </h6>
           
           <img src={gabrielHenrique} />
@@ -89,8 +86,8 @@ function Equipe() {
         <div className="card-carousel-squad">
           <h3>Daniel Pierre</h3>
           <h6>
-          Desenvolvimento<br></br>
           Design<br></br>
+          Desenvolvimento<br></br>
           </h6>
           <img src={daniel} />
           <ul class="icones">

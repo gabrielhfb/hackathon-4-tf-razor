@@ -186,11 +186,12 @@ h1 {
   margin: 1em 0;
   font-weight: bold;
   clear: left;
-  color: #6ca0ff;
+  color: #ffffff;
 }
 #detalhes {
   color: rgb(254, 0, 0);
   text-align: center;
+  text-shadow: 0.9px 0.9px #917e7ea5;
 }
 
 .diferenciais h3 {
@@ -292,8 +293,8 @@ h1 {
 }
 
 h6 {
-  color: #f2eb169d;
-  margin: 0px 0px 4px 11px;
+  color: rgba(225, 255, 0, 0.501);
+  margin: 0px 401px 10px 11px;
   text-shadow: 2px 1px #181717;
   border-radius: 1px;
 }
@@ -356,18 +357,21 @@ h6 {
 
 .card-carousel-squad img {
   justify-content: center;
-  width: 50%;
-  height: 50%;
-  /*border: 2px solid rgba(114, 22, 242, 0.244);*/
+  border: 3px solid rgba(84, 227, 255, 0.18);
   border-radius: 100%;
+  background-size: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .card-carousel-squad h3 {
   font-size: 1.3rem;
   font-weight: bold;
+  color: #ffffff;
   background-color: #00000013;
   height: 70px;
-  text-shadow: 2px 1px #181717;
+  text-shadow: 1.2px 1.2px #ff0303a2;
   border-radius: 1px;
   padding: 10px 0px 0px 10px;
 }
@@ -418,8 +422,7 @@ h6 {
 
 .icones {
   display: flex;
-  /*justify-content: center;*/
-  margin: 5px;
+  margin: 10px 0px 10px 30px;
 }
 
 .linkedin {
@@ -430,7 +433,7 @@ h6 {
 
 .github {
   width: 3em;
-  fill: #181717;
+  fill: #ffffff;
 }
 
 .linkedin:hover,
