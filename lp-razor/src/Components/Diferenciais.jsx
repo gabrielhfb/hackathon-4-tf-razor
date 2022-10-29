@@ -4,7 +4,9 @@ import CarouselProdigy from "./CarouselProdigy";
 function Diferenciais() {
   return (
     <section className="diferenciais">
-      <h2 id="detalhes">Workstation PRO Prodigy</h2>
+      <h2 id="detalhes">
+        Workstation PRO <strong>Prodigy</strong>
+      </h2>
 
       <div className="container-descritivo">
         <img src={prodigy} />
