@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import prodigy from "../Assets/img/Prodigy bloco 2.png";
 import CarouselProdigy from "./CarouselProdigy";
+import videoProcessador from "../Assets/video/processor-video.mp4";
+import videoPlacaVideo from "../Assets/video/video-placadevideo.mp4";
+import detalhesProdigy from "../Assets/img/Informação detalhada bloco 3.jpg"
 
 function Diferenciais() {
   const [detailsEnabled, setDetailsEnabled] = useState(false);
@@ -14,12 +17,17 @@ function Diferenciais() {
       <div className="container-descritivo">
         {detailsEnabled == true && (
           <div className="descricao-prodigy">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatem totam dolorem sed ad voluptas. Repellat iure saepe
-              deserunt provident molestias. A laborum perspiciatis cum
-              reiciendis ratione aliquam error architecto temporibus!
-            </p>
+            <video
+              width="1280"
+              height="720"
+              noControls
+              autoPlay
+              loop
+              muted
+            >
+              <source src={videoPlacaVideo} type="video/mp4" />
+              Seu navegador não suporta a tag de vídeo.
+            </video>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Voluptatem totam dolorem sed ad voluptas. Repellat iure saepe
@@ -34,12 +42,17 @@ function Diferenciais() {
 
         {detailsEnabled == true && (
           <div className="descricao-prodigy">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              itaque impedit dolores enim quo iste commodi nihil accusamus,
-              earum mollitia voluptate unde nostrum ullam ea aut excepturi iusto
-              magni cupiditate!
-            </p>
+            <video
+              width="1280"
+              height="720"
+              noControls
+              autoPlay
+              loop
+              muted
+            >
+              <source src={videoProcessador} type="video/mp4" />
+              Seu navegador não suporta a tag de vídeo.
+            </video>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Voluptatem totam dolorem sed ad voluptas. Repellat iure saepe
@@ -51,7 +64,10 @@ function Diferenciais() {
       </div>
 
       <div className="informacoes-compra">
-        <CarouselProdigy />
+        <div>
+          <CarouselProdigy />
+          <img src={detalhesProdigy}/>
+          </div>
         <div className="texto-compra">
           <h3>Razor Workstation Pro Pro</h3>
           <p>

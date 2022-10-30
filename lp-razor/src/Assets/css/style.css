@@ -24,7 +24,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 3;
   overflow: hidden;
 }
 
@@ -289,6 +289,7 @@ h1 {
   justify-content: center;
   align-content: center;
   transition: 1s all;
+  cursor: pointer;
 }
 
 .container-prodigy:hover,
@@ -299,7 +300,11 @@ h1 {
 .descricao-prodigy {
   display: flex;
   flex-direction: column;
-  row-gap: 3rem;
+  align-content: stretch;
+}
+
+.descricao-prodigy video {
+  width: 70%;
 }
 
 .diferenciais img {
@@ -321,6 +326,29 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
+  flex-grow: 1;
+  justify-content: space-evenly;
+
+}
+
+.texto-compra h3 {
+  flex-shrink: 4;
+}
+
+.comprar-botao {
+  margin: 0.5em 0 0 0;
+  background-color: rgba(120, 120, 193, 0.572);
+  border: 1.2px solid rgb(113, 22, 242);
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3em;
+  border-radius: 5px;
+  transition: 0.5s all;
+  cursor: pointer;
+  font-family: Poppins;
 }
 
 .contato-box img {
