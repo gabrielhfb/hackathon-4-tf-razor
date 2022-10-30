@@ -2,9 +2,9 @@ import contatoRazor from "../Assets/img/contato-razor.JPG";
 
 function Contato() {
   return (
-    <section class="contate-nos">
+    <section className="contate-nos">
       <h2 id="contato">Entre em Contato com a Razor</h2>
-      <div class="contato-box">
+      <div className="contato-box">
         <img src={contatoRazor} />
         <p>
           Ficou interessado em conhecer melhor como a Razor pode ajudar a sua

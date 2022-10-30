@@ -10,17 +10,17 @@ function MenuNavegacao() {
 
   return (
     <header>
-      <nav class="navbar">
+      <nav className="navbar">
         <label
-          class="navbar-alternador"
+          className="navbar-alternador"
           id="js-navbar-toggle"
-          for="alternadorVisto"
+          htmlFor="alternadorVisto"
         >
-          <i class="fa fa-bars"></i>
+          <i className="fa fa-bars"></i>
         </label>
-        <a href="https://razor.com.br" class="logo" target="_blank">
+        <a href="https://razor.com.br" className="logo" target="_blank">
           <svg
-            class="razor-logo"
+            className="razor-logo"
             width="100"
             height="26"
             viewBox="0 0 100 26"
@@ -36,17 +36,17 @@ function MenuNavegacao() {
           checked={checked}
           onChange={() => setChecked(toggle)}
         />
-        <ul class="main-nav" id="js-menu">
-          <a href="#" class="nav-links" onClick={() => setChecked(toggle)}>
+        <ul className="main-nav" id="js-menu">
+          <a href="#" className="nav-links" onClick={() => setChecked(toggle)}>
             <li>Home</li>
           </a>
-          <a href="#detalhes" class="nav-links" onClick={() => setChecked(toggle)}>
+          <a href="#detalhes" className="nav-links" onClick={() => setChecked(toggle)}>
             <li>Prodigy</li>
           </a>
-          <a href="#contato" class="nav-links" onClick={() => setChecked(toggle)}>
+          <a href="#contato" className="nav-links" onClick={() => setChecked(toggle)}>
             <li>Contato</li>
           </a>
-          <a href="#squad" class="nav-links" onClick={() => setChecked(toggle)}>
+          <a href="#squad" className="nav-links" onClick={() => setChecked(toggle)}>
             <li>Squad</li>
           </a>
         </ul>

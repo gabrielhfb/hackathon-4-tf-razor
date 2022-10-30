@@ -16,7 +16,7 @@ function HeroImage() {
           futuro
         </p>
         <video
-        class="video-razor"
+        className="video-razor"
         width="1280"
         height="720"
         controls

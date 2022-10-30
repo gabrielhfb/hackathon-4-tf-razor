@@ -7,17 +7,17 @@ import CarouselSquad from "./CarouselSquad";
 
 function Equipe() {
   return (
-    <section class="equipe" id="squad">
+    <section className="equipe" id="squad">
       <CarouselSquad show={1} infiniteLoop timer={5000}>
         <div className="card-carousel-squad">
           <h3>Felipe Lafin Haushahn</h3>
           <h6>Apresentador<br></br><br></br></h6>
           <img src={felipe} />
-          <ul class="icones">
+          <ul className="icones">
             <li>
               <a href="https://www.linkedin.com/in/felipe-lafin-3785a2237">
                 <svg
-                  class="linkedin"
+                  className="linkedin"
                   role="img"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ function Equipe() {
             <li>
               <a href="https://github.com/Felipe-Lafin-Haushahn">
                 <svg
-                  class="github"
+                  className="github"
                   role="img"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -52,11 +52,11 @@ function Equipe() {
           </h6>
           
           <img src={gabrielHenrique} />
-          <ul class="icones">
+          <ul className="icones">
             <li>
               <a href="https://www.linkedin.com/in/gabriel-henrique-fiszczuk-brandeburski">
                 <svg
-                  class="linkedin"
+                  className="linkedin"
                   role="img"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ function Equipe() {
             <li>
               <a href="https://github.com/gabrielhfb">
                 <svg
-                  class="github"
+                  className="github"
                   role="img"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -90,11 +90,11 @@ function Equipe() {
           Desenvolvimento<br></br>
           </h6>
           <img src={daniel} />
-          <ul class="icones">
+          <ul className="icones">
             <li>
               <a href="https://www.linkedin.com/in/daniel-pierre-frontend">
                 <svg
-                  class="linkedin"
+                  className="linkedin"
                   role="img"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ function Equipe() {
             <li>
               <a href="https://github.com/danielpierre12">
                 <svg
-                  class="github"
+                  className="github"
                   role="img"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -125,11 +125,11 @@ function Equipe() {
           <h3>Francielly Serraglio</h3>
           <h6>Design<br></br><br></br></h6>
           <img src={francielly} />
-          <ul class="icones">
+          <ul className="icones">
             <li>
               <a href="https://www.linkedin.com/in/francielly-barboza-serraglio-3905a2237">
                 <svg
-                  class="linkedin"
+                  className="linkedin"
                   role="img"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +143,7 @@ function Equipe() {
             <li>
               <a href="https://github.com/franciellybarboza">
                 <svg
-                  class="github"
+                  className="github"
                   role="img"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -160,11 +160,11 @@ function Equipe() {
           <h3>Lucas Waltrich</h3>
           <h6>Design<br></br><br></br></h6>
           <img src={lucas} />
-          <ul class="icones">
+          <ul className="icones">
             <li>
               <a href="https://www.linkedin.com/in/felipe-lafin-3785a2237">
                 <svg
-                  class="linkedin"
+                  className="linkedin"
                   role="img"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +178,7 @@ function Equipe() {
             <li>
               <a href="https://github.com/LucasEndril">
                 <svg
-                  class="github"
+                  className="github"
                   role="img"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"

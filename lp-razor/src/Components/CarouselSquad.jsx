@@ -48,24 +48,23 @@ function CarouselSquad({ children, show, infiniteLoop, timer }) {
     if (currentIndex > 7) {
       setCurrentIndex(1);
     }
-    console.log(currentIndex);
   };
 
-/*   useEffect(() => {
+  /*   useEffect(() => {
     const interval = setInterval(next, 7000);
     return () => clearInterval(interval);
   }, []); */
 
-  useEffect(()=> {
+  useEffect(() => {
     if (timer !== undefined) {
-      interval = setInterval(()=>{
+      interval = setInterval(() => {
         next();
-      
-      }, timer)
-    } return () => {
-      clearInterval(interval);
+      }, timer);
     }
-  })
+    return () => {
+      clearInterval(interval);
+    };
+  });
 
   const prev = () => {
     if (isRepeating || currentIndex > 0) {
@@ -74,7 +73,6 @@ function CarouselSquad({ children, show, infiniteLoop, timer }) {
     if (currentIndex < 1) {
       setCurrentIndex(7);
     }
-    console.log(currentIndex);
   };
 
   const handleTouchStart = (e) => {

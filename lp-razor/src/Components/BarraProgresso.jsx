@@ -1,5 +1,5 @@
 function BarraProgresso() {
-  return <div class="barra-progresso" id="barraProg"></div>;
+  return <div className="barra-progresso" id="barraProg"></div>;
 }
 
 window.onscroll = () => {
