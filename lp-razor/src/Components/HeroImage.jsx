@@ -28,7 +28,7 @@ function HeroImage() {
         Seu navegador não suporta a tag de vídeo.
       </video>
         <a href="#detalhes">
-          <button>MOSTRAR MAIS 🠓</button>
+          <button>MOSTRAR MAIS</button>
         </a>
       </div>
     </section>
