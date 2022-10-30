@@ -290,6 +290,11 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
+  transition: 1s all;
+}
+
+.container-prodigy:hover {
+  transform: scale(1.2);
 }
 
 .descricao-prodigy {
@@ -389,9 +394,11 @@ h6 {
   justify-content: center;
   flex-wrap: nowrap;
   flex-direction: column;
+  padding-left: 7rem;
+  align-items: stretch;
 }
 
-.card-carousel-squad p {
+.card-carousel-squad p, .card-carousel-squad h3, .card-carousel-squad h6 {
   text-align: center;
 }
 

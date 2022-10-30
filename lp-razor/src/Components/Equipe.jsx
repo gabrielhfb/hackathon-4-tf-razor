@@ -8,7 +8,7 @@ import CarouselSquad from "./CarouselSquad";
 function Equipe() {
   return (
     <section class="equipe" id="squad">
-      <CarouselSquad show={1} infiniteLoop>
+      <CarouselSquad show={1} infiniteLoop timer={5000}>
         <div className="card-carousel-squad">
           <h3>Felipe Lafin Haushahn</h3>
           <h6>Apresentador<br></br><br></br></h6>

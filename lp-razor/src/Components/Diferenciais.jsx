@@ -1,7 +1,10 @@
+import { useEffect, useState } from "react";
 import prodigy from "../Assets/img/Prodigy bloco 2.png";
 import CarouselProdigy from "./CarouselProdigy";
 
 function Diferenciais() {
+  const [detailsEnabled, setDetailsEnabled] = useState(false);
+
   return (
     <section className="diferenciais">
       <h2 id="detalhes">
@@ -9,38 +12,42 @@ function Diferenciais() {
       </h2>
 
       <div className="container-descritivo">
-        <div className="descricao-prodigy">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-            totam dolorem sed ad voluptas. Repellat iure saepe deserunt
-            provident molestias. A laborum perspiciatis cum reiciendis ratione
-            aliquam error architecto temporibus!
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-            totam dolorem sed ad voluptas. Repellat iure saepe deserunt
-            provident molestias. A laborum perspiciatis cum reiciendis ratione
-            aliquam error architecto temporibus!
-          </p>
-        </div>
+        {detailsEnabled == true && (
+          <div className="descricao-prodigy">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatem totam dolorem sed ad voluptas. Repellat iure saepe
+              deserunt provident molestias. A laborum perspiciatis cum
+              reiciendis ratione aliquam error architecto temporibus!
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatem totam dolorem sed ad voluptas. Repellat iure saepe
+              deserunt provident molestias. A laborum perspiciatis cum
+              reiciendis ratione aliquam error architecto temporibus!
+            </p>
+          </div>
+        )}
         <div className="container-prodigy">
-          <img src={prodigy} />
+          <img src={prodigy} onClick={() => setDetailsEnabled((s) => !s)} />
         </div>
 
-        <div className="descricao-prodigy">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            itaque impedit dolores enim quo iste commodi nihil accusamus, earum
-            mollitia voluptate unde nostrum ullam ea aut excepturi iusto magni
-            cupiditate!
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-            totam dolorem sed ad voluptas. Repellat iure saepe deserunt
-            provident molestias. A laborum perspiciatis cum reiciendis ratione
-            aliquam error architecto temporibus!
-          </p>
-        </div>
+        {detailsEnabled == true && (
+          <div className="descricao-prodigy">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              itaque impedit dolores enim quo iste commodi nihil accusamus,
+              earum mollitia voluptate unde nostrum ullam ea aut excepturi iusto
+              magni cupiditate!
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatem totam dolorem sed ad voluptas. Repellat iure saepe
+              deserunt provident molestias. A laborum perspiciatis cum
+              reiciendis ratione aliquam error architecto temporibus!
+            </p>
+          </div>
+        )}
       </div>
 
       <div className="informacoes-compra">

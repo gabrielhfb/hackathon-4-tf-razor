@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function CarouselSquad({ children, show, infiniteLoop }) {
+function CarouselSquad({ children, show, infiniteLoop, timer }) {
   const [currentIndex, setCurrentIndex] = useState(infiniteLoop ? show : 0);
   const [length, setLength] = useState(children.length);
 
@@ -12,6 +12,8 @@ function CarouselSquad({ children, show, infiniteLoop }) {
   const [touchPosition, setTouchPosition] = useState();
 
   const [windowSize, setWindowSize] = useState(getWindowSize());
+
+  let interval;
 
   useEffect(() => {
     setLength(children && children.length);
@@ -49,10 +51,21 @@ function CarouselSquad({ children, show, infiniteLoop }) {
     console.log(currentIndex);
   };
 
-  useEffect(() => {
+/*   useEffect(() => {
     const interval = setInterval(next, 7000);
     return () => clearInterval(interval);
-  }, []);  
+  }, []); */
+
+  useEffect(()=> {
+    if (timer !== undefined) {
+      interval = setInterval(()=>{
+        next();
+      
+      }, timer)
+    } return () => {
+      clearInterval(interval);
+    }
+  })
 
   const prev = () => {
     if (isRepeating || currentIndex > 0) {
