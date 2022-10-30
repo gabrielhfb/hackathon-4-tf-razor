@@ -24,7 +24,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
   overflow: hidden;
 }
 
@@ -37,7 +37,8 @@ header {
   font-size: 1.2em;
   background: rgb(113, 22, 242);
   border: 1px solid rgba(0, 0, 0, 0.2);
-  padding-bottom: 10px;
+  padding: 0 0 13px 0;
+  display: block;
 }
 
 .main-nav {
