@@ -46,7 +46,7 @@ function Contato() {
             rows="10"
             id="mensagem"
             class="mensagem-texto"
-            
+            placeholder="Como podemos ajudar?"
           ></textarea>
         </div>
         <fieldset>
