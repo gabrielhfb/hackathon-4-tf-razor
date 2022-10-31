@@ -304,18 +304,18 @@ h1 {
 }
 
 .descricao-prodigy p {
-  text-shadow: 1px 2px 5px rgb(0, 0, 0);
-  color: #fffb00;
+  text-shadow: 5px 7px 10px rgb(0, 0, 0);
+  color: #ffffff;
 }
 
 .descricao-prodigy #video-1 {
-  width: 60%;
+  width: 65%;
   padding: 50px;
   margin-left: 50px;
 }
 
 .descricao-prodigy #video-2 {
-  width: 50%;
+  width: 55%;
   margin-left: 150px;
   margin-bottom: 15px;
 }
@@ -341,7 +341,6 @@ h1 {
   flex-basis: 100%;
   flex-grow: 1;
   justify-content: space-evenly;
-  margin-right: 100px;
 }
 
 .texto-compra a {
@@ -616,7 +615,17 @@ form fieldset legend {
   margin: 0 0 20px;
   padding: 10px 25px;
   width: 100%;
-  background-color: #ffffff9c;
+  border-radius: 100px;
+  background-color: #ffffff86;
+}
+
+.mensagemText {
+  border-radius: none;
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 100%;
+  background-color: #ffffff86;
 }
 
 .enviar {

@@ -46,6 +46,7 @@ function Contato() {
             rows="10"
             id="mensagem"
             class="input-padrao"
+            class="mensagemText"
           ></textarea>
         </div>
         <fieldset>
