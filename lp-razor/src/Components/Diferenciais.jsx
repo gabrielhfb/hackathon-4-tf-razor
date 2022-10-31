@@ -131,8 +131,6 @@ function Diferenciais() {
           aprovada para uso em ambientes profissionais altamente exigentes.{" "}
         </p>*/}
       </div>
-
-      <p>Confira uma visão geral da Workstation Prodigy:</p>
     </section>
   );
 }
