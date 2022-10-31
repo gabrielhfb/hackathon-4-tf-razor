@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/hackathon-4-tf-razor/static/css/main.6fe50f3d.css",
-    "main.js": "/hackathon-4-tf-razor/static/js/main.3d31088c.js",
+    "main.css": "/hackathon-4-tf-razor/static/css/main.f2b6025d.css",
+    "main.js": "/hackathon-4-tf-razor/static/js/main.0bcd2447.js",
     "static/media/contato-razor.JPG": "/hackathon-4-tf-razor/static/media/contato-razor.4992bccb19c06d7735ec.JPG",
-    "static/media/squad.JPG": "/hackathon-4-tf-razor/static/media/squad.3f19bb5a0eb9cb1abc09.JPG",
+    "static/media/4973780.jpg": "/hackathon-4-tf-razor/static/media/4973780.5dcf56fe1f1fdfa4e512.jpg",
+    "static/media/Fundo.png": "/hackathon-4-tf-razor/static/media/Fundo.942887ac508cc2b5b7fc.png",
     "static/media/video-prodigy.mp4": "/hackathon-4-tf-razor/static/media/video-prodigy.04acfa6bb5d41869181c.mp4",
-    "static/media/prodigy-banner.png": "/hackathon-4-tf-razor/static/media/prodigy-banner.af39542fa6e98fec961d.png",
+    "static/media/processor-video.mp4": "/hackathon-4-tf-razor/static/media/processor-video.c6b4083d87606575b349.mp4",
+    "static/media/video-placadevideo.mp4": "/hackathon-4-tf-razor/static/media/video-placadevideo.7ed86460b5ed659ff631.mp4",
+    "static/media/daniel.jpg": "/hackathon-4-tf-razor/static/media/daniel.fc7be32168c849b07ff3.jpg",
     "static/media/gabriel-henrique.jpeg": "/hackathon-4-tf-razor/static/media/gabriel-henrique.c3ddbe0f33c0a6c7ec3a.jpeg",
-    "static/media/prodigy.PNG": "/hackathon-4-tf-razor/static/media/prodigy.b3bcec51d36d1ebe7c70.PNG",
+    "static/media/Prodigy carrosel 02.png": "/hackathon-4-tf-razor/static/media/Prodigy carrosel 02.7b479b80b03be8d28ddc.png",
+    "static/media/Prodigy carrosel 01.png": "/hackathon-4-tf-razor/static/media/Prodigy carrosel 01.61220b9220a73bec7a8f.png",
+    "static/media/Prodigy carrosel 03.png": "/hackathon-4-tf-razor/static/media/Prodigy carrosel 03.731493dfe741b711a474.png",
+    "static/media/Prodigy bloco 2.png": "/hackathon-4-tf-razor/static/media/Prodigy bloco 2.ad59207d5f35e74a8f0d.png",
+    "static/media/Informação detalhada bloco 3.jpg": "/hackathon-4-tf-razor/static/media/Informação detalhada bloco 3.c8c9e933ba573ac2e21a.jpg",
+    "static/media/francielly.jpeg": "/hackathon-4-tf-razor/static/media/francielly.3bfc3b4ef96f6ca403c0.jpeg",
     "static/media/felipe.jpg": "/hackathon-4-tf-razor/static/media/felipe.262294404dec9dd875e0.jpg",
+    "static/media/lucas.jpg": "/hackathon-4-tf-razor/static/media/lucas.8e2f493c2cff66b76e4e.jpg",
     "index.html": "/hackathon-4-tf-razor/index.html",
-    "main.6fe50f3d.css.map": "/hackathon-4-tf-razor/static/css/main.6fe50f3d.css.map",
-    "main.3d31088c.js.map": "/hackathon-4-tf-razor/static/js/main.3d31088c.js.map"
+    "main.f2b6025d.css.map": "/hackathon-4-tf-razor/static/css/main.f2b6025d.css.map",
+    "main.0bcd2447.js.map": "/hackathon-4-tf-razor/static/js/main.0bcd2447.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fe50f3d.css",
-    "static/js/main.3d31088c.js"
+    "static/css/main.f2b6025d.css",
+    "static/js/main.0bcd2447.js"
   ]
 }
