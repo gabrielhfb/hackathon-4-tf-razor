@@ -4,22 +4,22 @@ function HeroImage() {
   return (
     <section className="abertura">
       <div className="bloco-mensagem">
-        <h1>
+        <h1 className="animate glow">
           A Workstation PRO <strong>Prodigy</strong> da{" "}
-          <img
+          <img className="animate glow delay-1"
             src="https://razor.com.br/wp-content/themes/razortheme/assets/img/logo-razor-somente-texto-branco-sem-fundo.svg"
             alt="Logo da Razor Computadores"
           />
         </h1>
-        <p>
+        <p className="animate glow delay-2">
           Uma máquina de alta performance para atender às demandas de hoje e do
           futuro
         </p>
         <video
-        className="video-razor"
+        className="video-razor animate glow delay-5"
         width="1280"
         height="720"
-        controls
+        noControls
         autoPlay
         loop
         muted
@@ -28,7 +28,7 @@ function HeroImage() {
         Seu navegador não suporta a tag de vídeo.
       </video>
         <a href="#detalhes">
-          <button>MOSTRAR MAIS</button>
+          <button className="animate drop delay-10">MOSTRAR MAIS</button>
         </a>
       </div>
     </section>
