@@ -45,8 +45,8 @@ function Contato() {
             cols="70"
             rows="10"
             id="mensagem"
-            class="input-padrao"
-            class="mensagemText"
+            class="mensagem-texto"
+            
           ></textarea>
         </div>
         <fieldset>

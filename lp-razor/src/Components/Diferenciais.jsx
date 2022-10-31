@@ -69,10 +69,10 @@ function Diferenciais() {
       </div>
 
       <div className="informacoes-compra">
-        <div>
+        <div className="imagens-compra">
           <CarouselProdigy />
           <img src={detalhesProdigy}/>
-          </div>
+        </div>
         <div className="texto-compra">
           <h3>Razor Workstation Pro Prodigy</h3>
           <p>
@@ -81,12 +81,8 @@ function Diferenciais() {
             expansível para atender a todas as demandas de hoje e do futuro. É
             uma máquina potente para escalar e crescer junto com seu negócio.
           </p>
-          <p>
-            Para mais informações Click 
-            <a href="https://razor.com.br/wp-content/uploads/2021/03/ficha_tecnica_prodigy.pdf">
-             aqui
-            </a>
-          </p>
+        
+          <a className="comprar-botao" href="https://razor.com.br/wp-content/uploads/2021/03/ficha_tecnica_prodigy.pdf">Mais detalhes</a>
 
           <button className="comprar-botao">Compre agora</button>
         </div>

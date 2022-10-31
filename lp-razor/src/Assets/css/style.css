@@ -4,7 +4,7 @@ html {
 }
 
 .envolve-conteudo {
-  background: url(../img/Fundo.png) no-repeat center center fixed;
+  background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.3)),url(../img/Fundo.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -213,7 +213,7 @@ h1 {
 }
 
 .container-carousel-prodigy {
-  width: 40%;
+  width: 25vw;
   color: #ffffff;
   text-align: center;
 }
@@ -256,7 +256,7 @@ h1 {
   font-size: 1.2em;
   margin: 1.2em 0;
   text-align: justify;
-  line-height: 1.2em;
+  line-height: 2rem;
   color: #ffffff;
   display: flex;
   height: 50%;
@@ -264,13 +264,6 @@ h1 {
   margin: 0px;
   text-shadow: 2px 1px #181717;
   border-radius: 1px;
-}
-
-.informacoes a {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: bold;
-  color: rgb(113, 22, 242);
 }
 
 .informacoes a:hover {
@@ -300,7 +293,6 @@ h1 {
 .descricao-prodigy {
   display: flex;
   flex-direction: column;
-  align-content: stretch;
 }
 
 .descricao-prodigy p {
@@ -308,7 +300,12 @@ h1 {
   color: #ffffff;
 }
 
-.descricao-prodigy #video-1 {
+.descricao-prodigy video {
+  width: 20vw;
+  margin: auto;
+}
+
+/* .descricao-prodigy #video-1 {
   width: 65%;
   padding: 50px;
   margin-left: 50px;
@@ -318,15 +315,27 @@ h1 {
   width: 55%;
   margin-left: 150px;
   margin-bottom: 15px;
-}
+} */
 
-.diferenciais img {
+.container-prodigy img {
   width: 40%;
   display: flex;
   padding-top: 2rem;
   padding-bottom: 2rem;
   flex-grow: 5;
   align-self: center;
+}
+
+.imagens-compra {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+  padding: 1rem 3rem 1rem 0;
+}
+
+.imagens-compra img {
+  width: 25vw;
 }
 
 .informacoes-compra {
@@ -338,9 +347,8 @@ h1 {
 .texto-compra {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  flex-grow: 1;
-  justify-content: space-evenly;
+  flex: 2;
+  padding: 1em 0 0;
 }
 
 .texto-compra a {
@@ -446,7 +454,7 @@ h6 {
   justify-content: center;
   flex-wrap: nowrap;
   flex-direction: column;
-  padding-left: 7rem;
+  padding-left: 4rem;
   align-items: stretch;
 }
 
@@ -576,7 +584,9 @@ h6 {
 }
 
 form {
-  margin: 150px 150px 0px 150px;
+  padding: 150px 150px 0px 150px;
+  border-right: 0.3rem solid #415bc1;
+  border-left: 0.3rem solid #415bc1;
 }
 form h2 {
   text-align: center;
@@ -619,8 +629,8 @@ form fieldset legend {
   background-color: #ffffff86;
 }
 
-.mensagemText {
-  border-radius: none;
+.mensagem-texto {
+  border-radius: 30px;
   display: block;
   margin: 0 0 20px;
   padding: 10px 25px;
