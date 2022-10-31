@@ -11,9 +11,10 @@ function Contato() {
           empresa, ou ficou com alguma dúvida? Preencha um breve formulário e um
           de nossos especialistas irá entrar em contato com você.
         </p>
-        <button id="botaoContato">Entre em contato</button>
       </div>
       <form>
+        <h2>NÃO ENCONTROU O QUE PROCURA?</h2>
+        <h4>Nós te ajudamos</h4>
         <div class="contato-info" style={{clear: "both"}}>
           <label for="nome">Nome</label>
           <input type="text" id="nome" class="input-padrao" required />
@@ -44,7 +45,8 @@ function Contato() {
             cols="70"
             rows="10"
             id="mensagem"
-            class="input-padrao"
+            class="mensagem-texto"
+            placeholder="Como podemos ajudar?"
           ></textarea>
         </div>
         <fieldset>

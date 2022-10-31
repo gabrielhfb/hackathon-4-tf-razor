@@ -145,7 +145,7 @@ function CarouselSquad({ children, show, infiniteLoop, timer }) {
       <div className="carousel-wrapper">
         {(isRepeating || currentIndex > 0) && (
           <button onClick={prev} className="left-arrow">
-            &lt;
+            <span class="material-symbols-outlined">navigate_before</span>
           </button>
         )}
         <div
@@ -168,7 +168,7 @@ function CarouselSquad({ children, show, infiniteLoop, timer }) {
         </div>
         {(isRepeating || currentIndex < length - show) && (
           <button onClick={next} className="right-arrow">
-            &gt;
+            <span class="material-symbols-outlined">navigate_next</span>
           </button>
         )}
       </div>

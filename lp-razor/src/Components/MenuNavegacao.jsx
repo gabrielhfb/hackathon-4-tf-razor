@@ -9,7 +9,7 @@ function MenuNavegacao() {
   };
 
   return (
-    <header>
+    <header className="animate blur">
       <nav className="navbar">
         <label
           className="navbar-alternador"
