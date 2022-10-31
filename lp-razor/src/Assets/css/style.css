@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   scroll-padding-top: 3rem;
   max-width: 100vw;
@@ -580,6 +580,16 @@ form h2 {
   text-align: center;
 }
 
+form h4 {
+  text-align: center;
+  font-size: 2.25em;
+  margin: 1em 0;
+  font-weight: bold;
+  clear: left;
+  color: #ffffff;
+  text-shadow: 2px 1px #181717;
+}
+
 .contato-info label {
   font-size: 1.3em;
   color: rgb(255, 255, 255);
@@ -598,7 +608,7 @@ form legend {
   display: block;
   font-size: 1.3em;
   margin: 2em 0 0.3em;
-  color: rgb(113, 22, 242);
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px 1px #000000b9;
 }
 
@@ -698,7 +708,7 @@ footer p {
   }
 
   .container-prodigy::after {
-    content: url("../img/touch_app_white_48dp.svg");
+    content: url('../img/touch_app_white_48dp.svg');
     position: relative;
     bottom: 4rem;
   }
@@ -769,7 +779,7 @@ Animation System by Neale Van Fleet from Rogue Amoeba
   animation-duration: 0.75s;
   animation-delay: 0.5s;
   animation-name: animate-fade;
-  animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
   animation-fill-mode: backwards;
 }
 
@@ -780,12 +790,18 @@ Animation System by Neale Van Fleet from Rogue Amoeba
 }
 
 @keyframes animate-fade {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Pop In */
-.animate.pop { animation-name: animate-pop; }
+.animate.pop {
+  animation-name: animate-pop;
+}
 
 @keyframes animate-pop {
   0% {
@@ -835,7 +851,9 @@ Animation System by Neale Van Fleet from Rogue Amoeba
 }
 
 /* Grow In */
-.animate.grow { animation-name: animate-grow; }
+.animate.grow {
+  animation-name: animate-grow;
+}
 
 @keyframes animate-grow {
   0% {
@@ -850,13 +868,15 @@ Animation System by Neale Van Fleet from Rogue Amoeba
 }
 
 /* Splat In */
-.animate.splat { animation-name: animate-splat; }
+.animate.splat {
+  animation-name: animate-splat;
+}
 
 @keyframes animate-splat {
   0% {
     opacity: 0;
     transform: scale(0, 0) rotate(20deg) translate(0, -30px);
-    }
+  }
   70% {
     opacity: 1;
     transform: scale(1.1, 1.1) rotate(15deg);
@@ -873,7 +893,9 @@ Animation System by Neale Van Fleet from Rogue Amoeba
 }
 
 /* Roll In */
-.animate.roll { animation-name: animate-roll; }
+.animate.roll {
+  animation-name: animate-roll;
+}
 
 @keyframes animate-roll {
   0% {
@@ -914,7 +936,7 @@ Animation System by Neale Van Fleet from Rogue Amoeba
 @keyframes animate-spin {
   0% {
     opacity: 0;
-    transform: rotateY(-120deg) scale(0.9, .9);
+    transform: rotateY(-120deg) scale(0.9, 0.9);
   }
   100% {
     opacity: 1;
@@ -923,7 +945,9 @@ Animation System by Neale Van Fleet from Rogue Amoeba
 }
 
 /* Slide In */
-.animate.slide { animation-name: animate-slide; }
+.animate.slide {
+  animation-name: animate-slide;
+}
 
 @keyframes animate-slide {
   0% {
@@ -937,39 +961,39 @@ Animation System by Neale Van Fleet from Rogue Amoeba
 }
 
 /* Drop In */
-.animate.drop { 
-  animation-name: animate-drop; 
-  animation-timing-function: cubic-bezier(.77, .14, .91, 1.25);
+.animate.drop {
+  animation-name: animate-drop;
+  animation-timing-function: cubic-bezier(0.77, 0.14, 0.91, 1.25);
 }
 
 @keyframes animate-drop {
-0% {
-  opacity: 0;
-  transform: translate(0,-300px) scale(0.9, 1.1);
-}
-95% {
-  opacity: 1;
-  transform: translate(0, 0) scale(0.9, 1.1);
-}
-96% {
-  opacity: 1;
-  transform: translate(10px, 0) scale(1.2, 0.9);
-}
-97% {
-  opacity: 1;
-  transform: translate(-10px, 0) scale(1.2, 0.9);
-}
-98% {
-  opacity: 1;
-  transform: translate(5px, 0) scale(1.1, 0.9);
-}
-99% {
-  opacity: 1;
-  transform: translate(-5px, 0) scale(1.1, 0.9);
-}
-100% {
-  opacity: 1;
-  transform: translate(0, 0) scale(1, 1);
+  0% {
+    opacity: 0;
+    transform: translate(0, -300px) scale(0.9, 1.1);
+  }
+  95% {
+    opacity: 1;
+    transform: translate(0, 0) scale(0.9, 1.1);
+  }
+  96% {
+    opacity: 1;
+    transform: translate(10px, 0) scale(1.2, 0.9);
+  }
+  97% {
+    opacity: 1;
+    transform: translate(-10px, 0) scale(1.2, 0.9);
+  }
+  98% {
+    opacity: 1;
+    transform: translate(5px, 0) scale(1.1, 0.9);
+  }
+  99% {
+    opacity: 1;
+    transform: translate(-5px, 0) scale(1.1, 0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1, 1);
   }
 }
 
