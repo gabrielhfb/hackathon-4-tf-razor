@@ -118,7 +118,7 @@ header {
 }
 
 .abertura .bloco-mensagem img {
-  height: 1em;
+  height: 2.2rem;
   border-bottom: none;
 }
 
@@ -303,16 +303,6 @@ h1 {
 .descricao-prodigy video {
   width: 20vw;
   margin: auto;
-}
-
-.descricao-prodigy #video-1 {
-  margin-left: 20px;
-  margin-bottom: 5px;
-}
-
-.descricao-prodigy #video-2 {
-  margin-left: 150px;
-  width: 60%;
 }
 
 .container-prodigy img {
