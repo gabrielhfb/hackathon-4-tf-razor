@@ -14,6 +14,7 @@ function Contato() {
         <button id="botaoContato">Entre em contato</button>
       </div>
       <form>
+        <h2>NÃO ENCONTROU O QUE PROCURA?</h2>
         <div class="contato-info" style={{clear: "both"}}>
           <label for="nome">Nome</label>
           <input type="text" id="nome" class="input-padrao" required />

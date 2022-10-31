@@ -16,8 +16,9 @@ function Diferenciais() {
 
       <div className="container-descritivo">
         {detailsEnabled == true && (
-          <div className="descricao-prodigy">
-            <video
+          <div className="descricao-prodigy" id="video">
+            <video 
+              id="video-1"
               width="1280"
               height="720"
               noControls
@@ -29,10 +30,11 @@ function Diferenciais() {
               Seu navegador não suporta a tag de vídeo.
             </video>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatem totam dolorem sed ad voluptas. Repellat iure saepe
-              deserunt provident molestias. A laborum perspiciatis cum
-              reiciendis ratione aliquam error architecto temporibus!
+              Obtenha o máximo de performance gráfica
+              com as placas de vídeo Nvidia® Geforce™ GTX
+              1660S, RTX 3060, RTX 3070 e RTX 3080 ou
+              com placas profissionais Nvidia® Quadro™
+              P1000, P2200, RTX 4000 e RTX 5000.
             </p>
           </div>
         )}
@@ -41,8 +43,9 @@ function Diferenciais() {
         </div>
 
         {detailsEnabled == true && (
-          <div className="descricao-prodigy">
-            <video
+          <div className="descricao-prodigy" >
+            <video 
+              id="video-2"
               width="1280"
               height="720"
               noControls
@@ -54,10 +57,12 @@ function Diferenciais() {
               Seu navegador não suporta a tag de vídeo.
             </video>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatem totam dolorem sed ad voluptas. Repellat iure saepe
-              deserunt provident molestias. A laborum perspiciatis cum
-              reiciendis ratione aliquam error architecto temporibus!
+              Alta performance de processamento de dados
+              com opções de processadores com os
+              processadores AMD® Ryzen™ de terceira
+              geração e Intel® Core™ de décima geração,
+              permitindo a instalação de até 16
+              núcleos e 32 threads.
             </p>
           </div>
         )}
@@ -69,7 +74,7 @@ function Diferenciais() {
           <img src={detalhesProdigy}/>
           </div>
         <div className="texto-compra">
-          <h3>Razor Workstation Pro Pro</h3>
+          <h3>Razor Workstation Pro Prodigy</h3>
           <p>
             Desenvolvida especialmente para a utilização em ambientes de
             trabalho pesado, a workstation Pro Prodigy é robusta, segura e
@@ -77,11 +82,10 @@ function Diferenciais() {
             uma máquina potente para escalar e crescer junto com seu negócio.
           </p>
           <p>
-            Acesse
+            Para mais informações Click 
             <a href="https://razor.com.br/wp-content/uploads/2021/03/ficha_tecnica_prodigy.pdf">
-              aqui
+             aqui
             </a>
-            para conferir as demais especificações técnicas deste produto.
           </p>
 
           <button className="comprar-botao">Compre agora</button>
@@ -131,8 +135,6 @@ function Diferenciais() {
           aprovada para uso em ambientes profissionais altamente exigentes.{" "}
         </p>*/}
       </div>
-
-      <p>Confira uma visão geral da Workstation Prodigy:</p>
     </section>
   );
 }
