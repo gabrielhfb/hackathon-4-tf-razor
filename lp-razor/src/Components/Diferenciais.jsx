@@ -83,7 +83,7 @@ function Diferenciais() {
           </p>
         
           <a className="comprar-botao" href="https://razor.com.br/wp-content/uploads/2021/03/ficha_tecnica_prodigy.pdf">Mais detalhes</a>
-          <a className="comprar-botao" href="https://razor.com.br/produto/prodigy-xp-960g58/#comprar">Compre agora</a>
+          <a className="bntStyle" href="https://razor.com.br/produto/prodigy-xp-960g58/#comprar">Compre agora</a>
         </div>
 
         {/*<p>

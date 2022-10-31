@@ -267,7 +267,7 @@ h1 {
 }
 
 .informacoes a:hover {
-  color: gold;
+  color: rgb(0, 0, 0);
 }
 
 .container-descritivo {
@@ -361,10 +361,34 @@ h1 {
   transition: 0.5s all;
   cursor: pointer;
   font-family: Poppins;
+  text-transform: uppercase;
 }
 
 .comprar-botao:hover {
-  background-color: #f2ec16;
+  background-color: rgba(242, 235, 22, 0.797);
+  color: #000000;
+  transform: scale(1.03);
+}
+
+.bntStyle {
+  margin: 0.5em 0 33px 0;
+  background-color: rgba(255, 217, 0, 0.791);
+  border: 1.2px solid rgb(113, 22, 242);
+  color: rgb(0, 0, 0);
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3em;
+  border-radius: 5px;
+  transition: 0.5s all;
+  cursor: pointer;
+  font-family: Poppins;
+  text-transform: uppercase;
+}
+
+.bntStyle:hover {
+  background-color: rgb(255, 0, 0);
   color: black;
   transform: scale(1.03);
 }
@@ -590,7 +614,7 @@ form h4 {
   text-shadow: 2px 1px #181717;
 }
 
-.contato-info label {
+.contato-info labsl {
   font-size: 1.3em;
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px #000000;
