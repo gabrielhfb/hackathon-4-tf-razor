@@ -4,7 +4,7 @@ import Equipe from "./Equipe";
 
 function Informacoes() {
   return (
-    <div className="informacoes">
+    <div className="informacoes animate pop delay-10">
       <Diferenciais />
       <Contato />
       <Equipe />
