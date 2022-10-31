@@ -10,7 +10,7 @@ function Footer() {
         atendimento@razorcomputadores.com.br ● (54)3046.6350 | 0800 006 6350{" "}
       </p>
       <p>
-        Landing Page criada pelo Squad 8 - Explorers do #TeuFuturo Web Razor
+        Landing Page criada pelo Squad 1 - GoldProg Explorers do #TeuFuturo Web Razor
         2022
       </p>
     </footer>
