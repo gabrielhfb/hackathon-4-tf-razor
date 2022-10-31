@@ -4,7 +4,8 @@ html {
 }
 
 .envolve-conteudo {
-  background: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.3)),url(../img/Fundo.png) no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url(../img/Fundo.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -287,7 +288,7 @@ h1 {
 
 .container-prodigy:hover,
 .container-prodigy:focus {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .descricao-prodigy {
@@ -305,17 +306,15 @@ h1 {
   margin: auto;
 }
 
-/* .descricao-prodigy #video-1 {
-  width: 65%;
-  padding: 50px;
-  margin-left: 50px;
+.descricao-prodigy #video-1 {
+  margin-left: 20px;
+  margin-bottom: 5px;
 }
 
 .descricao-prodigy #video-2 {
-  width: 55%;
   margin-left: 150px;
-  margin-bottom: 15px;
-} */
+  width: 60%;
+}
 
 .container-prodigy img {
   width: 23vw;
@@ -593,8 +592,8 @@ form h2 {
 }
 
 .contato-info label {
-  color: rgba(255, 255, 0, 0.705);
   font-size: 1.3em;
+  color: rgb(255, 255, 255);
   text-shadow: 1px 1px #000000;
 }
 
@@ -602,7 +601,8 @@ form label {
   display: block;
   font-size: 1.2em;
   margin: 0.5em 0 0.7em;
-  color: #fefefea3;
+  color: #fefefee5;
+  text-shadow: 1px 1px 1px #000000b9;
 }
 
 form legend {
@@ -613,9 +613,6 @@ form legend {
   text-shadow: 1px 1px 1px #000000b9;
 }
 
-form fieldset {
-  background-color: #00000053;
-}
 form fieldset legend {
   margin: 20px 0px 20px 0px;
 }
