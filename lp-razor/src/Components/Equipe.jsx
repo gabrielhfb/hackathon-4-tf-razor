@@ -46,7 +46,7 @@ function Equipe() {
         </div>
 
         <div className="card-carousel-squad">
-          <h3>Gabriel Henrique</h3>
+          <h3>Gabriel Henrique F.B.</h3>
           <h6>
             Líder <br></br>
             Desenvolvimento<br></br>
@@ -163,7 +163,7 @@ function Equipe() {
           <img src={lucas} />
           <ul className="icones">
             <li>
-              <a href="https://www.linkedin.com/in/felipe-lafin-3785a2237">
+              <a href="https://linkedin.com/in/lucas-endrl-waltrich-3a1899255">
                 <svg
                   className="linkedin"
                   role="img"

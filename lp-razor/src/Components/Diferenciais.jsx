@@ -11,7 +11,7 @@ function Diferenciais() {
   return (
     <section className="diferenciais">
       <h2 id="detalhes">
-        Workstation PRO <strong>Prodigy</strong>
+        Conheça a <strong>Prodigy</strong>
       </h2>
 
       <div className="container-descritivo">
@@ -82,8 +82,8 @@ function Diferenciais() {
             uma máquina potente para escalar e crescer junto com seu negócio.
           </p>
         
-          <a className="comprar-botao" href="https://razor.com.br/wp-content/uploads/2021/03/ficha_tecnica_prodigy.pdf">Mais detalhes</a>
-          <a className="bntStyle" href="https://razor.com.br/produto/prodigy-xp-960g58/#comprar">Compre agora</a>
+          <a className="comprar-botao" target="_blank" href="https://razor.com.br/wp-content/uploads/2021/03/ficha_tecnica_prodigy.pdf">Mais detalhes</a>
+          <a className="bntStyle" target="_blank" href="https://razor.com.br/produto/prodigy-xp-960g58/#comprar">Compre agora</a>
         </div>
 
         {/*<p>
