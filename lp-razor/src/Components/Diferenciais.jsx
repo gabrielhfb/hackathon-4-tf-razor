@@ -21,7 +21,6 @@ function Diferenciais() {
               id="video-1"
               width="1280"
               height="720"
-              noControls
               autoPlay
               loop
               muted
@@ -48,7 +47,6 @@ function Diferenciais() {
               id="video-2"
               width="1280"
               height="720"
-              noControls
               autoPlay
               loop
               muted

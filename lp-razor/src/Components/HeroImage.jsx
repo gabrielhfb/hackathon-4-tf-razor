@@ -20,7 +20,6 @@ function HeroImage() {
           className="video-razor animate glow delay-5"
           width="1280"
           height="720"
-          noControls
           autoPlay
           loop
           muted
