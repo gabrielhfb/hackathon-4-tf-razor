@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hackathon-4-tf-razor/static/css/main.ea3fc1c0.css",
-    "main.js": "/hackathon-4-tf-razor/static/js/main.6da84fd3.js",
+    "main.js": "/hackathon-4-tf-razor/static/js/main.036da901.js",
     "static/media/contato-razor.JPG": "/hackathon-4-tf-razor/static/media/contato-razor.4992bccb19c06d7735ec.JPG",
     "static/media/video-placadevideo.mp4": "/hackathon-4-tf-razor/static/media/video-placadevideo.3bbc10dd44a1488668f4.mp4",
     "static/media/4973780.jpg": "/hackathon-4-tf-razor/static/media/4973780.5dcf56fe1f1fdfa4e512.jpg",
@@ -21,10 +21,10 @@
     "index.html": "/hackathon-4-tf-razor/index.html",
     "static/media/touch_app_white_48dp.svg": "/hackathon-4-tf-razor/static/media/touch_app_white_48dp.c49bf59486fff84a0948.svg",
     "main.ea3fc1c0.css.map": "/hackathon-4-tf-razor/static/css/main.ea3fc1c0.css.map",
-    "main.6da84fd3.js.map": "/hackathon-4-tf-razor/static/js/main.6da84fd3.js.map"
+    "main.036da901.js.map": "/hackathon-4-tf-razor/static/js/main.036da901.js.map"
   },
   "entrypoints": [
     "static/css/main.ea3fc1c0.css",
-    "static/js/main.6da84fd3.js"
+    "static/js/main.036da901.js"
   ]
 }
